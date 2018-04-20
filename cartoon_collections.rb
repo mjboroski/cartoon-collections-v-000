@@ -12,7 +12,6 @@ def summon_captain_planet(array)
     array2[i]="#{array.capitalize[i]}!"
   end
   puts array2
-
 end
 
 def long_planeteer_calls(array)
