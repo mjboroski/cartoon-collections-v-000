@@ -1,8 +1,7 @@
 def roll_call_dwarves(array)
   array2=[]
   array.each_with_index{|item,index|
-    array2[index[0]]=index
-    array2[index[1]]=item}
+    array2[index]="#{index}. #{item}"}
   puts array2
 end
 
